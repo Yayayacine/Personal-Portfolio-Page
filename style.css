@@ -158,9 +158,8 @@ button:hover {
 
 .contact-links-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
-    gap: 20px;
 }
 
 .contact-links-container a {
@@ -194,9 +193,11 @@ button:hover {
     margin: 0px 10px;
 }
 
-@media (max-width: 637PX) {
+/* for 635px screen size */
+@media (max-width: 636PX) {
     .header a{
         font-size: 10px;
+        padding: 4px;
     }
     #my-name {
         font-size: 10px;
@@ -206,11 +207,45 @@ button:hover {
         height: 20px;
     }
     .personal-info h6 {
+        border-bottom: 1.5px solid white;
+        border-right: 1.5px solid white;
         font-size: 3px;
         right: 85px;
         top: 8px;
     }
     .links button {
-        font-size: 7px;
+        font-size: 10px;
+        padding: 4px;
+    }
+    .body-upper-section h1 {
+        font-size: 75px;
+    }
+}
+
+/* for 450px screen size */
+@media (max-width: 451PX) {
+    .header a{
+        font-size: 7.5px;
+    }
+    #my-name {
+        font-size: 7.5px;
+    }
+    #my-img {
+        width: 15px;
+        height: 15px;
+    }
+    .personal-info h6 {
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+        font-size: 2px;
+        padding: 1px;
+        right: 67px;
+        top: 6px;
+    }
+    .links button {
+        font-size: 7.5px;
+    }
+    .body-upper-section h1 {
+        font-size: 60px;
     }
 }
