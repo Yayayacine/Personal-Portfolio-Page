@@ -25,7 +25,7 @@ button:hover {
 
 .header {
     margin: 20px 20px 0px 20px;
-    padding: 0 10px;
+    padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -192,4 +192,25 @@ button:hover {
 #discord-img {
     width: 22px;
     margin: 0px 10px;
+}
+
+@media (max-width: 637PX) {
+    .header a{
+        font-size: 10px;
+    }
+    #my-name {
+        font-size: 10px;
+    }
+    #my-img {
+        width: 20px;
+        height: 20px;
+    }
+    .personal-info h6 {
+        font-size: 3px;
+        right: 85px;
+        top: 8px;
+    }
+    .links button {
+        font-size: 7px;
+    }
 }
