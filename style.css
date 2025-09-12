@@ -67,12 +67,12 @@ button:hover {
     text-decoration: none;
     color: #e8e8e8cd;
     border-radius: 15px;
-    transition: 2.0s;
+    transition: color 2.0s, background-color 2.0s;
 }   
 .links a:hover {
     background-color: #313131;
     color: #fe9e43;
-    transition: 0.5s;
+    transition: color 0.5s, background-color 0.5s;
 }
 
 .body-upper-section {
@@ -107,11 +107,7 @@ button:hover {
     margin-top: 30px;
 }
 
-.skills div :hover{
-    transform: scale(1.05);
-}
-
-.skill {
+.skills div {
     width: 200px;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -121,11 +117,11 @@ button:hover {
     border-radius: 15px;
     border-bottom: 3px solid #ff9b3d;
     border-right: 3px solid #ff9b3d;
+    transition: transform 0.5s ease;
 }
 
-.skill :hover{
-    transform: scale(1.05);
-    transition: transform 0.2s ease;
+.skills div:hover{
+    transform: scale(1.025);
 }
 
 .skill h1{
